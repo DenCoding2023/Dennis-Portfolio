@@ -8,28 +8,21 @@ body {
   header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:end;
     padding: 1%;
     background-color: #13293d;
     color: #fff;
   }
+  /* Student photo */
   
-  /* color of headding 1*/
+   /* color of headding 1*/
   h1 {
-    margin: 2%;
-    font-size: 200%;
+    margin: 1%;
+    font-size: 300%;
     font-family: serif;
   }
 
-  h2{
-    margin: 25px;
-    font-family: serif;
-
-}
-
-
-
-  nav ul {
+nav ul {
   display: flex;
   justify-content: space-between;
   min-width: 300px;
@@ -47,24 +40,16 @@ section {
   padding-left: 40%;
 }
 
+/* Image sectoin */
+
+img{
+  width: 200px;
+  height: 200px;
+  margin: -400px; 
+}
+
 /* Moving the text in the asside section */
 aside{
   
   margin: 10px;
-}
-
-
-@media screen and (max-width: 768px) {
-  header {
-    flex-direction: column;
-  }
-
-  section {
-    padding-right: 0;
-  }
-
-  aside {
-    width: 100%;
-    text-align: center;
-  }
 }
