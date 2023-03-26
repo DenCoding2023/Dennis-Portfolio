@@ -4,7 +4,7 @@ body {
     line-height: 1.5;
     font-size: 16px;
   }
-  
+  /* Controls the top of the page with the links */
   header {
     display: flex;
     justify-content: space-between;
@@ -14,12 +14,20 @@ body {
     color: #fff;
   }
   
-  /* Change the heading size to 200%, give it a margin all around, and assign font family to serif */
+  /* color of headding 1*/
   h1 {
     margin: 2%;
     font-size: 200%;
     font-family: serif;
   }
+
+  h2{
+    margin: 25px;
+    font-family: serif;
+
+}
+
+
 
   nav ul {
   display: flex;
@@ -34,6 +42,16 @@ nav a {
   margin: 25px;
 }
 
+section {
+  flex: 1 1 0;
+  padding-left: 40%;
+}
+
+/* Moving the text in the asside section */
+aside{
+  
+  margin: 10px;
+}
 
 
 @media screen and (max-width: 768px) {
