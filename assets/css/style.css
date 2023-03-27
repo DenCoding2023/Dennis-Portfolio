@@ -74,11 +74,11 @@ img{
 
 /* working on paragraph 1 */
 .Den-paragraph p{
-  text-align: right;
+  text-align: center;
 }
 
 /* Moving the text in the asside section */
-.boder1 {
+.border {
   border-right: 3px solid #39a6b2;
   height: 150px;
   flex: 2 1%;
