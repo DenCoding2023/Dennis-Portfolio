@@ -4,7 +4,9 @@ body {
     line-height: 1.5;
     font-size: 16px;
   }
+
   /* Controls the top of the page with the links */
+  
   header {
     display: flex;
     justify-content: space-between;
@@ -13,19 +15,36 @@ body {
     background-color: #13293d;
     color: #fff;
   }
+
   /* Student photo */
   
    /* color of headding 1*/
+  
   h1 {
     margin: 1%;
     font-size: 300%;
     font-family: serif;
   }
 
+  h2{
+   text-align: left;
+
+  }
+
 nav ul {
   display: flex;
   justify-content: space-between;
   min-width: 300px;
+  align-items: center;
+  list-style: none;
+}
+
+/* Remember to make this different */
+
+nav ul {
+margin: 0 30px;
+font-weight:lighter;
+
 }
 
 nav a {
@@ -35,9 +54,13 @@ nav a {
   margin: 25px;
 }
 
+nav ul {
+  text-decoration: underline;
+}
+
 section {
   flex: 1 1 0;
-  padding-left: 40%;
+  padding-left: 0%;
 }
 
 /* Image sectoin */
@@ -45,11 +68,18 @@ section {
 img{
   width: 200px;
   height: 200px;
-  margin: -400px; 
+  margin: -10px; 
+}
+
+
+/* working on paragraph 1 */
+.Den-paragraph p{
+  text-align: right;
 }
 
 /* Moving the text in the asside section */
-aside{
-  
-  margin: 10px;
+.boder1 {
+  border-right: 3px solid #39a6b2;
+  height: 150px;
+  flex: 2 1%;
 }
