@@ -65,6 +65,8 @@ section {
   padding-left: 0%;
 }
 
+
+
 /* Image sectoin */
 
 img{
@@ -84,7 +86,7 @@ img{
 /* Here is the boder section */
 .border {
   border-left: 7px solid #39a6b2;
-  height: 360px;
+  height: 200px;
   flex: 2 40%;
   margin-left: 400px ;
 }
@@ -117,7 +119,13 @@ img{
 
   }
 
-
+  .section title {
+    font-size: 35px;
+    font-family:cursive;
+    color: #024e76;
+    margin: 0 0 0 80px;
+    width: 50%;
+  }
 
 @media screen and (max-width: 768px) {
   header {
