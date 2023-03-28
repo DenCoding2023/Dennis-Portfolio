@@ -28,7 +28,9 @@ body {
 
   h2{
    text-align: left;
-
+   font-size: 250%;
+   margin: 0 0 0 200px;
+   
   }
 
 nav ul {
@@ -74,12 +76,51 @@ img{
 
 /* working on paragraph 1 */
 .Den-paragraph p{
-  text-align: center;
+  text-align: left;
+  margin-left: 5%;
+  font-size: x-large;
 }
 
-/* Moving the text in the asside section */
+/* Here is the boder section */
 .border {
-  border-right: 3px solid #39a6b2;
-  height: 150px;
-  flex: 2 1%;
+  border-left: 7px solid #39a6b2;
+  height: 360px;
+  flex: 2 40%;
+  margin-left: 400px ;
+}
+
+.border-2 {
+  border-left: 7px solid #39a6b2;
+  height: 360px;
+  flex: 2 40%;
+  margin-left: 400px ;
+}
+
+.border-3 {
+  border-left: 7px solid #39a6b2;
+  height: 80px;
+  flex: 2 40%;
+  margin-left: 400px ;
+}
+
+/* Here is the about me section */
+.Den-paragraph-3 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: right;
+  list-style: none;
+  margin-left: 8%;
+  width: 95%;  
+  color: black;
+  font-size: x-large;
+
+  }
+
+
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
 }
