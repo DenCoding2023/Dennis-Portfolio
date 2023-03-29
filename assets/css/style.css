@@ -24,6 +24,7 @@ body {
     margin: 1%;
     font-size: 300%;
     font-family: serif;
+    color:#c6b9ae;
   }
 
   h2{
@@ -38,7 +39,7 @@ nav ul {
   min-width: 300px;
   align-items: center;
   list-style: none;
-  font-size: larger;
+  font-size: x-large;
 }
 
 /* Remember to make this different */
@@ -50,7 +51,7 @@ font-weight:lighter;
 }
 
 nav a {
-  color: #b9C6ae;
+  color: #c6b9ae;
   font-weight: bold;
   text-decoration: none;
   margin: 25px;
@@ -58,6 +59,7 @@ nav a {
 
 nav ul {
   text-decoration: underline;
+  color:#c6b9ae;
 }
 
 section {
@@ -66,12 +68,11 @@ section {
 }
 
 
-
 /* Image sectoin */
 
 img{
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin: -10px; 
 }
 
@@ -83,26 +84,42 @@ img{
   font-size: x-large;
 }
 
+/* second pargraph 2*/
+
+.Dennis-work p{
+  text-align: left;
+  margin-left: 5%;
+  font-size: x-large;
+}
+
+
+/* Contact sectoin info */
+.how-to-contact-me p{
+  text-align: right;
+  margin-left: 10%;
+  font-size: x-large;
+}
+
 /* Here is the boder section */
 .border {
   border-left: 7px solid #39a6b2;
-  height: 200px;
+  height: 216px;
   flex: 2 40%;
-  margin-left: 400px ;
+  margin-left: 27px;
 }
 
 .border-2 {
   border-left: 7px solid #39a6b2;
   height: 360px;
   flex: 2 40%;
-  margin-left: 400px ;
+  margin-left: 29px;
 }
 
 .border-3 {
   border-left: 7px solid #39a6b2;
-  height: 80px;
+  height: 100px;
   flex: 2 40%;
-  margin-left: 400px ;
+  margin-left: 6px ;
 }
 
 /* Here is the about me section */
@@ -110,22 +127,35 @@ img{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: right;
   list-style: none;
   margin-left: 8%;
-  width: 95%;  
+   
   color: black;
   font-size: x-large;
 
   }
-
-  .section title {
-    font-size: 35px;
-    font-family:cursive;
-    color: #024e76;
-    margin: 0 0 0 80px;
-    width: 50%;
+/* controls the Section titles on the left */
+  .flex-row {
+    display: flex;
+    justify-content: left;
+    margin-left: 10%;
+    
   }
+
+  .flex-row-2 {
+    display: flex;
+    justify-content: left;
+    margin-left: 10%;
+    
+  }
+
+  .flex-row-3 {
+    display: flex;
+    justify-content: left;
+    margin-left: 10%;
+    
+  }
+
 
 @media screen and (max-width: 768px) {
   header {
