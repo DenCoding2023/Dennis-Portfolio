@@ -70,11 +70,17 @@ section {
 
 /* Image sectoin */
 
-img{
+.img-headshot{
   width: 300px;
   height: 300px;
-  margin: 10px; 
+  margin: 20px; 
   
+}
+
+.prework-page{
+  width:auto;
+  height:auto;
+  padding-left: px;
 }
 
 
@@ -124,21 +130,33 @@ img{
 }
 
 /* Here is the about me section */
-.Den-paragraph-3 ul {
+.den-paragraph-3 ul{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   list-style: none;
   margin-left: 8%;
-  color: black;
+  color: rgb(12, 13, 14);
   font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
 
 }
 
+.den-paragraph-3 a{
+text-decoration: none;
+
+}
+
+.den-paragraph-3 a:visited{
+  text-decoration: none;
+  color: black;
+  
+  }
+
 /* controls images in work */
   .prework-study-guide{
-    width: 5px;
-    height: 5px;
+    width: 100px;
+    height: 10px;
     
     
   }
@@ -162,9 +180,11 @@ img{
   .flex-row-3 {
     display: flex;
     justify-content: left;
-    margin-left: 10%;
+    margin-left: 8%;
     
   }
+
+
 
 
 @media screen and (max-width: 768px) {
