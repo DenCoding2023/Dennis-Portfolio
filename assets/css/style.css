@@ -80,7 +80,7 @@ section {
 .prework-page{
   width:auto;
   height:auto;
-  padding-left: px;
+ 
 }
 
 
@@ -143,22 +143,15 @@ section {
 }
 
 .den-paragraph-3 a{
-text-decoration: none;
-
+font-weight: bold;
+color:black;
 }
-
-.den-paragraph-3 a:visited{
-  text-decoration: none;
-  color: black;
-  
-  }
 
 /* controls images in work */
   .prework-study-guide{
     width: 100px;
     height: 10px;
-    
-    
+ 
   }
 
 
