@@ -18,6 +18,7 @@ body {
     background-color: #13293d;
     color: #fff;
     height: 150px;
+    width: auto;
   }
 
   /* Student photo */
@@ -49,7 +50,7 @@ nav ul {
 /* Remember to make this different */
 
 nav ul {
-margin: 0 30px;
+margin: 0 72px;
 font-weight:lighter;
 
 }
@@ -98,30 +99,32 @@ section {
 /* working on paragraph 1 */
 .Den-paragraph p{
   text-align: left;
-  margin-left: 5%;
+  margin-left: 1%;
   font-size: x-large;
+  width:1150px;
+
 }
 
 /* second pargraph 2*/
 
-.Dennis-work p{
+/* .Dennis-work p{
   text-align: left;
   margin-left: 5%;
   font-size: x-large;
-}
+} */
 
 
 /* Contact sectoin info */
-.how-to-contact-me p{
+/* .how-to-contact-me p{
   text-align: right;
   margin-left: 10%;
   font-size: x-large;
-}
+} */
 
 /* Here is the boder section */
 .border {
   border-left: 7px solid #39a6b2;
-  height: 216px;
+  height: 500x;
   flex: 2 40%;
   margin-left: 6px;
 }
@@ -142,20 +145,22 @@ section {
 
 /* Here is the about me section */
 .den-paragraph-3 ul{
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
-  justify-content: space-around;
+  /* justify-content: space-between; */
   list-style: none;
-  margin-left: 8%;
+  /* margin-left: 8%; */
   color: rgb(12, 13, 14);
   font-size: x-large;
   font-family: 'Courier New', Courier, monospace;
+  padding-left: 15px;
 
 }
 
 .den-paragraph-3 a{
 font-weight: bold;
 color:black;
+
 }
 
 /* controls images in work */
@@ -190,9 +195,29 @@ color:black;
 
 
 
+/* Cards are split into two columns at 992px or smaller
+@media screen and (max-width: 992px) {
+  .My-Work, .contact-me, .about-me, {
+    width: 50%;
+  }
+  
 
-@media screen and (max-width: 768px) {
-  html, body {
-    flex-direction: column;
+/* Cards are stacked on top of each other at 768px or smaller */
+/* @media screen and (max-width: 768px) {
+  .My-Work, .contact-me, .about-me, {
+    width: 100%;
+  } */ */
+
+/* for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* for screens larger than 768px */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
   }
 }
