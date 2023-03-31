@@ -105,22 +105,6 @@ section {
 
 }
 
-/* second pargraph 2*/
-
-/* .Dennis-work p{
-  text-align: left;
-  margin-left: 5%;
-  font-size: x-large;
-} */
-
-
-/* Contact sectoin info */
-/* .how-to-contact-me p{
-  text-align: right;
-  margin-left: 10%;
-  font-size: x-large;
-} */
-
 /* Here is the boder section */
 .border {
   border-left: 7px solid #39a6b2;
@@ -192,21 +176,6 @@ color:black;
     margin-left: 3%;
     
   }
-
-
-
-/* Cards are split into two columns at 992px or smaller
-@media screen and (max-width: 992px) {
-  .My-Work, .contact-me, .about-me, {
-    width: 50%;
-  }
-  
-
-/* Cards are stacked on top of each other at 768px or smaller */
-/* @media screen and (max-width: 768px) {
-  .My-Work, .contact-me, .about-me, {
-    width: 100%;
-  } */ 
 
 /* for screens smaller than 768px */
 @media screen and (max-width: 1000px) {
